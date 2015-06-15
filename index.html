@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Katanagatari Fansite - The 12 Deviant Blades</title>
+  <meta name="description" content="Katanagatari fansite">
+  <meta name="author" content="K3ig0">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div class="main">
+		<div class="slides">
+			<!--<div>
+					<h1> Texto </h1>
+					<img src=... >
+			</div><!-->
+			<img src="img/1.png" alt="">
+			<img src="img/2.png" alt="">
+			<img src="img/3.png" alt="">
+			<img src="img/4.png" alt="">
+			<img src="img/5.png" alt="">
+			<img src="img/6.png" alt="">
+			<img src="img/7.png" alt="">
+			<img src="img/8.png" alt="">
+			<img src="img/9.png" alt="">
+			<img src="img/10.png" alt="">
+			<img src="img/11.png" alt="">
+			<img src="img/12.png" alt="">
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<!-- <script src="js/jquery.slides.min.js"></script> -->
+	<script>
+
+		$(function(){
+		  $(".slides").slidesjs({
+		    play: {
+		      active: true,
+		        // [boolean] Generate the play and stop buttons.
+		        // You cannot use your own buttons. Sorry.
+		      effect: "slide",
+		        // [string] Can be either "slide" or "fade".
+		      interval: 3000,
+		        // [number] Time spent on each slide in milliseconds.
+		      auto: true,
+		        // [boolean] Start playing the slideshow on load.
+		      swap: true,
+		        // [boolean] show/hide stop and play buttons
+		      pauseOnHover: false,
+		        // [boolean] pause a playing slideshow on hover
+		      restartDelay: 2500
+		        // [number] restart delay on inactive slideshow
+		    }
+		  });
+		});
+
+	</script>
+</body>
+</html>
